@@ -512,7 +512,7 @@ int main() {
   std::cin >> narcs;
   Graph g(nver);
   int from, to;
-  std::cout << "Enter pairs of vertices, which connects with edge. Vertex numbering starts with 0\n";
+  std::cout << "Enter pairs of vertices, which are connected with edge. Vertex numbering starts with 0\n";
   for (int i = 0; i < narcs; ++i) {
     std::cin >> from >> to;
     g.add_arc(from, to);
